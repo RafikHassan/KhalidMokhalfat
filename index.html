@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html dir="rtl">
   <head>
-    <title>Student Marks</title>
+    <title>ملاحظات طلاب خالد بن الوليد</title>
     <style>
       /* Add your CSS styles here */
       form {
@@ -46,12 +46,12 @@
       <h1>مدرسة خالد بن الوليد للتعليم الأساسي</h1>
       <h2>العام الدراسي 2023/2024</h2>
       <h2>الفصل الدراسي الثاني</h2>
-      <h1 style="color: red;">المخالفات السلوكية</h1>
+      <h1 style="color: red;">ملاحظات على الطلاب</h1>
       <br>
 
       <form onsubmit="getMarks(); return false;">
         <input type="text" id="studentNumber" name="studentNumber" required placeholder="أدخل الرقم المدرسي للطالب" />
-        <button type="submit">أظهر المخالفات السلوكية</button>
+        <button type="submit">أظهر الملاحظات</button>
       </form>
 
     </Center>
@@ -101,8 +101,8 @@
     </script>
 
     <!-- Add the following HTML elements to your page -->
-    <div id="loading-indicator" style="display: none;">جاري جلب المخالفات السلوكية للطالب، انتظر لحظات...</div>
-    <div id="not-found-message" style="display: none;">لا توجد مخالفات سلوكية مسجلة لهذا الرقم.</div>
+    <div id="loading-indicator" style="display: none;">جاري جلب الملاحظات على الطالب، انتظر لحظات...</div>
+    <div id="not-found-message" style="display: none;">لا توجد ملاحظات مسجلة لهذا الرقم.</div>
 
 
 
